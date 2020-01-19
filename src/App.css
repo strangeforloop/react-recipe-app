@@ -63,7 +63,7 @@
   grid-gap: 2em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  /* grid-template-rows: mixmax(80px, auto); */
-  grid-auto-flow: dense;
+  /* grid-template-rows: mixmax(80px, 700px); */
+  /* grid-auto-flow: dense; */
 
 }

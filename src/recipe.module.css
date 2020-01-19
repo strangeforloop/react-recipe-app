@@ -8,8 +8,8 @@
   background: white;
   align-items: center;
   /* min-width: 40%; */
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content; */
+  /* height: fit-content; */
 }
 
 .content {
