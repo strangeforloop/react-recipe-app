@@ -13,6 +13,7 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('chicken');
+  const [results, setResults] = useState({});
 
   useEffect(() => {
     console.log('Effect has been run');
@@ -22,8 +23,14 @@ const App = () => {
   const getRecipes = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
-    console.log(data.hits);
+    console.log('data.hits.length: ');
+    console.log('data: ', data);
+    console.log('hits', data.hits);
     setRecipes(data.hits);
+    setResults(data);
+    if (data.hits.length === 0) {
+      console.log('hello world');
+    }
   }
 
   const updateSearch = e => {
@@ -48,18 +55,36 @@ const App = () => {
           </form>
         </div>
       </header>
-      {/* <h1 onClick={() => setCounter(counter + 1)}>{counter}</h1> */}
-      <div className="recipes">
-        {recipes.map((recipe) => (
-          <Recipe
-            key={recipe.recipe.url}
-            title={recipe.recipe.label}
-            calories={recipe.recipe.calories}
-            image={recipe.recipe.image}
-            ingredients={recipe.recipe.ingredients} 
-            url={recipe.recipe.url}/>
-        ))}
-      </div>
+      { (results.q === "") ? alert('Please enter text into the search bar') : 
+      // <main>
+      //   <p className="results-message">Search results for "{query}":</p>
+      //   <div className="recipes">
+      //     {recipes.map((recipe) => (
+      //       <Recipe
+      //         key={recipe.recipe.url}
+      //         title={recipe.recipe.label}
+      //         calories={recipe.recipe.calories}
+      //         image={recipe.recipe.image}
+      //         ingredients={recipe.recipe.ingredients}
+      //         url={recipe.recipe.url} />
+      //     ))}
+      //   </div>
+      // </main>
+      <main>
+        <p className="results-message">Search results for "{query}":</p>
+        <div className="recipes">
+          {recipes.map((recipe) => (
+            <Recipe
+              key={recipe.recipe.url}
+              title={recipe.recipe.label}
+              calories={recipe.recipe.calories}
+              image={recipe.recipe.image}
+              ingredients={recipe.recipe.ingredients}
+              url={recipe.recipe.url} />
+          ))}
+        </div>
+      </main>
+      }
     </div>
   );
 }

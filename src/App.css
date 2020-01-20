@@ -50,10 +50,19 @@
   letter-spacing: 0.2ch;
 }
 
+.results-message {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  margin-top: 1.8em;
+  text-align: center;
+  font-style: italic;
+}
+
 /* Recipes Section */
 
 .recipes {
   margin: 2.5em 2em;
+  margin: 1.8em;
   /* display: flex;
   justify-content: space-around;
   flex-wrap: wrap; */
@@ -62,7 +71,7 @@
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-rows: mixmax(80px, 700px); */
   /* grid-auto-flow: dense; */
 
