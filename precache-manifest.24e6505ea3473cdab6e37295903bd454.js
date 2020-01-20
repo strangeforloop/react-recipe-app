@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75d9e0cb9bc840d0fb7bf858ca467023",
+    "revision": "7b74c1dd3caa03b5150c79f29435de12",
     "url": "/react-recipe-app/index.html"
   },
   {
-    "revision": "813130d53591d5be5be9",
-    "url": "/react-recipe-app/static/css/main.b66f23d2.chunk.css"
+    "revision": "0073b0c9a9dae833873e",
+    "url": "/react-recipe-app/static/css/main.cfbe07cb.chunk.css"
   },
   {
-    "revision": "7ce61e8b57f574870492",
-    "url": "/react-recipe-app/static/js/2.b26c0e45.chunk.js"
+    "revision": "b6825ec634de25ca3cd6",
+    "url": "/react-recipe-app/static/js/2.45c2b61b.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/react-recipe-app/static/js/2.b26c0e45.chunk.js.LICENSE"
+    "url": "/react-recipe-app/static/js/2.45c2b61b.chunk.js.LICENSE"
   },
   {
-    "revision": "813130d53591d5be5be9",
-    "url": "/react-recipe-app/static/js/main.c71977b8.chunk.js"
+    "revision": "0073b0c9a9dae833873e",
+    "url": "/react-recipe-app/static/js/main.5b730c36.chunk.js"
   },
   {
     "revision": "70807991e580235f0acc",
