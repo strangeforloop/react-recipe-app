@@ -5,5 +5,5 @@ This app allows users to search for food recipes.
 This app was created using React with Hooks. 
 It gets recipe information from the Edamam Food Recipes API.
 
-## Demo
+## :star: Demo :star:
 To view this app live, visit https://strangeforloop.github.io/react-recipe-app/.
