@@ -1,0 +1,1 @@
+// condition1 ? option1 : condition2 ? option2 : option 3
