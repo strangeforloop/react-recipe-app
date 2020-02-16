@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/react-recipe-app/static/css/main.cfbe07cb.chunk.css",
-    "main.js": "/react-recipe-app/static/js/main.5b730c36.chunk.js",
-    "main.js.map": "/react-recipe-app/static/js/main.5b730c36.chunk.js.map",
+    "main.css": "/react-recipe-app/static/css/main.b7b603c4.chunk.css",
+    "main.js": "/react-recipe-app/static/js/main.de839087.chunk.js",
+    "main.js.map": "/react-recipe-app/static/js/main.de839087.chunk.js.map",
     "runtime-main.js": "/react-recipe-app/static/js/runtime-main.c863515a.js",
     "runtime-main.js.map": "/react-recipe-app/static/js/runtime-main.c863515a.js.map",
-    "static/js/2.45c2b61b.chunk.js": "/react-recipe-app/static/js/2.45c2b61b.chunk.js",
-    "static/js/2.45c2b61b.chunk.js.map": "/react-recipe-app/static/js/2.45c2b61b.chunk.js.map",
+    "static/js/2.b26c0e45.chunk.js": "/react-recipe-app/static/js/2.b26c0e45.chunk.js",
+    "static/js/2.b26c0e45.chunk.js.map": "/react-recipe-app/static/js/2.b26c0e45.chunk.js.map",
     "index.html": "/react-recipe-app/index.html",
-    "precache-manifest.24e6505ea3473cdab6e37295903bd454.js": "/react-recipe-app/precache-manifest.24e6505ea3473cdab6e37295903bd454.js",
+    "precache-manifest.c5c7229f873f463dbe443103cacfb449.js": "/react-recipe-app/precache-manifest.c5c7229f873f463dbe443103cacfb449.js",
     "service-worker.js": "/react-recipe-app/service-worker.js",
-    "static/css/main.cfbe07cb.chunk.css.map": "/react-recipe-app/static/css/main.cfbe07cb.chunk.css.map",
-    "static/js/2.45c2b61b.chunk.js.LICENSE": "/react-recipe-app/static/js/2.45c2b61b.chunk.js.LICENSE",
-    "static/media/index.css": "/react-recipe-app/static/media/linuxLibertine.9538cb98.ttf",
-    "static/media/logo.svg": "/react-recipe-app/static/media/logo.5d5d9eef.svg"
+    "static/css/main.b7b603c4.chunk.css.map": "/react-recipe-app/static/css/main.b7b603c4.chunk.css.map",
+    "static/js/2.b26c0e45.chunk.js.LICENSE": "/react-recipe-app/static/js/2.b26c0e45.chunk.js.LICENSE",
+    "static/media/index.css": "/react-recipe-app/static/media/linuxLibertine.9538cb98.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.c863515a.js",
-    "static/js/2.45c2b61b.chunk.js",
-    "static/css/main.cfbe07cb.chunk.css",
-    "static/js/main.5b730c36.chunk.js"
+    "static/js/2.b26c0e45.chunk.js",
+    "static/css/main.b7b603c4.chunk.css",
+    "static/js/main.de839087.chunk.js"
   ]
 }
