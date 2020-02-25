@@ -2,6 +2,7 @@ import React from "react";
 import style from "./recipe.module.css"
 
 const Recipe = ({ title, calories, image, ingredients, url }) => {
+  // const RecipesComponent = 
   return (
     <div className={style.recipe}>
       <div className={style.content}>

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./recipe.module.css"
 
-const NoSearch = ({ title, calories, image, ingredients, url }) => {
+const NoSearch = () => {
   return (
     <div className="messageToUser">
       <p className="noSearchMessage">Hey! You didn't enter a search. Please enter a search into the search bar.</p>
