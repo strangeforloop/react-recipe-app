@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Recipe from './Recipe';
 import NoSearch from './NoSearch';
 import NoResults from './NoResults';
-import Spinner from './Spinner';
+import Loading from './Loading';
 import './App.css';
 
 const App = () => {
@@ -16,14 +16,13 @@ const App = () => {
 
   useEffect(() => {
     console.log('Effect has been run');
-    // getRecipes();
+    getRecipes();
   }, [query]);
 
   const getRecipes = async () => {
     console.log('getting recipes');
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
-    // console.log('data.hits.length: ');
     console.log('data: ', data);
     console.log('hits', data.hits);
     setRecipes(data.hits);
@@ -55,7 +54,7 @@ const App = () => {
       </header>
       { 
 
-       (isLoading) ? <Spinner /> : (query === "") ? <NoSearch/> : (recipes.length === 0) ? <NoResults/> :    
+       (isLoading) ? <Loading /> : (query === "") ? <NoSearch/> : (recipes.length === 0) ? <NoResults/> :    
       <main className="container">
         <p className="results-message">Search results for "{query}":</p>
         <div className="recipes">

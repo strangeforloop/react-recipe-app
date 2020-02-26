@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./recipe.module.css"
 
 const NoResults = () => {
   return (
