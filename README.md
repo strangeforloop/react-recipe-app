@@ -18,6 +18,7 @@ This application uses hooks to handle the state of various elements in the appli
 #### User Story
 As a person who cooks at home, I want to have access to high-quality recipes from multiple sources so that I can view at a glance.
 <br/><br/>
+![User Flow Diagram](link-to-image)
 
 ## :star: Demo :star:
 To view this app live, visit https://strangeforloop.github.io/react-recipe-app/.
